@@ -5,7 +5,7 @@ function totalDays(){
     var months = days*30;
     var years = months*12;
 
-    var d1=new Date(2017,10,3);//Remember, months are 0 based in JS
+    var d1=new Date(2014,06,30);//Remember, months are 0 based in JS
 	var d2=new Date();
 
 	var diff_days = Math.round((d2-d1)/days);
